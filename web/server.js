@@ -20,7 +20,7 @@ app.get("/download", async (req, res) => {
             params: { url: videoUrl },
             headers: {
                 "X-RapidAPI-Key": process.env.RAPIDAPI_KEY,
-                "X-RapidAPI-Host": "instagram-downloader-api.p.rapidapi.com"
+                "X-RapidAPI-Host": "instagram-downloader-download-instagram-stories-videos4.p.rapidapi.com"
             }
         });
 
